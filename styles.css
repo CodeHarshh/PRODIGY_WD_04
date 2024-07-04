@@ -1,0 +1,728 @@
+
+
+nav{
+  display: flex;
+  /* position: fixed; */
+  width: 1350px;
+  height:70px;
+  justify-content: space-between;
+  z-index: 1000;
+  background-color:#FFC436 ;
+  
+margin-top: 0;
+}
+
+
+
+.img-logo{
+  position: relative;
+  height: 60px;
+  left:10px;
+  top:5px;
+}
+
+
+nav ul li{
+
+  display:inline-block;
+  position: relative;
+  margin:20px 20px ;
+ right: 100px;
+ margin-right: 25px;
+ margin-bottom: 1000px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:black;
+  font-weight: 700;
+  font-size:larger;
+  font-family: Roboto, sans-serif;
+}
+
+
+
+nav ul li a:hover{
+  color:blue;
+}
+
+
+
+.main-div{
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+.div-1-0{
+  height: 460px;
+  width: 1350px;
+  display: flex;
+  background-color:#eff4fd ;
+}
+
+.div-1-1{
+  height:200px;
+  width:400px;
+margin-left: 230px;
+margin-top: 16%;
+}
+
+.div-1-2{
+ position: relative;
+left: 60px;
+top:60px;
+height:500px;
+ 
+}
+
+.h1-main{
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Roboto, sans-serif;
+  
+}
+.span-1{
+  color:orange;
+}
+
+.div-2-0{
+  background-color:#F5F7F8;
+  width: 1350px;
+  height:620px;
+  font-weight: 700;
+  color: b;
+  font-family:  "Verdana", sans-serif;
+  
+
+}
+
+.para-1{
+ position: relative;
+ top:20px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 22px;
+}
+
+
+
+
+
+.div-2-1{
+  width:300px;
+ position: relative;
+ top:130px;
+ left:480px;
+ width:325px;
+ 
+}
+.div-2-1-1{
+position: relative;
+left:20px;
+
+}
+
+
+.div-3-0{
+ background-color:white;
+  width: 100%;
+  height:620px;
+
+}
+
+
+.div-4-0{
+  background-color: white;
+  width: 100%;
+  height:520px;
+
+}
+
+.img-2{
+ height: 70px;
+ border-radius: 200px;
+ position: relative;
+ 
+}
+
+.span-2{
+ color:orange;
+}
+.div-3-0{
+display: flex;
+
+ /* justify-content: center; */
+ font-family: Roboto, sans-serif;
+ font-size: 15px;
+gap:100px;
+
+}
+
+.div-3-1{
+
+top:150px;
+ position: relative;
+width:400px;
+border-bottom: 20px;
+padding: 10px;
+margin-right: 50px;
+}
+
+
+.div-3-2{  
+top:160px;
+position: relative;
+width:400px;
+padding: 10px;
+margin-right: 50px;
+}
+
+.div-3-3{
+top:150px;
+position: relative;
+width:400px;
+border-bottom: 20px;
+padding: 10px;
+margin-right: 150px;
+}
+
+.div-3-4{
+top:160px;
+padding: 10px;
+position: relative;
+width:400px;
+margin-right: 50px;
+
+}
+.div-3-1-0{
+height: 90px;
+}
+
+.div-3-1-2{
+height: 90px;
+ }
+.skill-h1{
+position: relative;
+text-decoration: underline;
+width:200px;
+height: 300px;
+
+left:550px
+}
+
+.div-4-0{
+background-color: white;
+width:auto;
+height:400px;
+
+
+}
+
+
+
+
+.para-2{
+font-size: large;
+}
+
+.img-1{
+position: relative;
+left:500px;
+top:400px;
+height:500px;
+}
+
+.btn{
+z-index: 100;
+left:20px;
+z-index: 1000;
+width:140px;
+position: relative;
+left:100px;
+top:590px;
+font-family: Roboto, sans-serif;
+color:black;
+font-weight: 600;
+text-decoration: none;
+height:400px;
+padding: 20px;
+border-radius: 20px;
+background-color: aqua;
+
+}
+
+
+
+.btn:hover{
+
+background-color: orange; }
+.div-4-2:hover{
+background-color: orange;
+}
+
+
+.bottom-container {
+background-color: #FFC436;
+padding: 50px 20px 20px 20px;
+text-align: center;
+height: 50px;
+width: auto;
+
+}
+
+.footer-link{
+padding: 20px;
+border-bottom: 40px;
+text-decoration: none;
+font-weight: 700;
+color: black;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.footer-link:hover{
+color:blue ;
+}
+
+.div-5-0{
+  width:1200px;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  gap:50px;
+  flex-wrap: wrap;
+}
+.projects-h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+.project {
+
+  width: 330px;
+  height: 230px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+/* Specific project backgrounds */
+#project1 {
+  background-image: url(./ss-portfolio.png);
+  background-size: cover;
+  background-position: center;
+  background-size: calc(100% - 20px);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/* Add styles for other projects similarly */
+#project2 {
+  background-image: url(./ss-tic-tack-toe.png); /* Change to actual image path */
+  background-size: cover;
+  background-position: center;
+  background-size: calc(100% - 20px);
+  background-repeat: no-repeat;
+}
+
+
+#project3 {
+  background-image: url(./ss-hotel.png); /* Change to actual image path */
+  background-size: calc(100% - 20px);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project4 {
+  background-image: url(./ss-stopwatch.png); /* Change to actual image path */
+  background-size: calc(100% - 20px);
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+
+#project5 {
+  background-image: url(./ss-weather.png); /* Change to actual image path */
+  background-size: calc(100% - 20px);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-name {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 15px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #FFC436;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #FFC433;
+}
+
+
+.skills-section {
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.skill {
+  width: 230px;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #4158D0; /* Fallback color */
+ background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.skill img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+/* laptop to phone part: */
+
+
+
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+
+  nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    gap:30px;
+    z-index: 100;
+    background-color: #FFC436;
+    margin-top: 0;
+    position: relative;
+  }
+
+  .img-logo {
+    height: 40px;
+    top: 9px;
+    left: 5px;
+  }
+
+  nav ul li {
+    display: inline-flex;
+    margin: 0px 2px;
+    margin-bottom: 3px;
+    left: 1px;
+    margin-right: 3px;
+    top: 5px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: smaller;
+    font-family: Roboto, sans-serif;
+  }
+
+  nav ul li a:hover {
+    color: blue;
+  }
+
+  .main-div {
+    height: auto;
+    width: 100%;
+  }
+
+  .div-1-0 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #eff4fd;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-1-1 {
+    height: 30px;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .img-3 {
+    height: 200px;
+    width: 190px;
+  }
+
+  .div-1-2 {
+    position: relative;
+    left: 10px;
+    top: 40px;
+    height: 300px;
+  }
+
+  .h1-main {
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    left: 30px;
+    top: 10px;
+    text-align: center;
+  }
+
+  .div-2-0 {
+    background-color: #F5F7F8;
+    height: 400px;
+    width: 100px;
+    font-weight: 500;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .div-2-1 {
+    width: 110%;
+    margin-top: 20px;
+    text-align: left;
+    justify-content: left;
+   display: inline;
+   left: 100px;
+  }
+
+  .div-2-1-1 {
+    font-size: smaller;
+    text-align: left;
+
+  }
+
+  .para-1 {
+    text-align: left;
+    font-size: 10px;
+  
+  }
+
+  .div-3-0 {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .div-4-0 {
+    background-color: white;
+    height: auto;
+    width: 100%;
+  }
+
+  .div-3-0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .div-3-1,
+  .div-3-2,
+  .div-3-3,
+  .div-3-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .div-3-1-0,
+  .div-3-1-2 {
+    height: 30px;
+  }
+
+  .skill-h1 {
+    position: relative;
+    text-decoration: underline;
+    width: 100%;
+    top: 10px;
+    left: 0;
+  }
+
+  .div-4-0 {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .para-2 {
+    font-size: small;
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+  .img-1 {
+    position: relative;
+    left: 0;
+    top: 20px;
+    height: auto;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: smaller;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .bottom-container {
+    background-color: #FFC436;
+    padding: 10px 5px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .footer-link {
+    padding: 5px;
+    font-size: smaller;
+  }
+  .div-5-0 {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width:100px;
+    height: 2000px;;
+  }
+  
+  .project {
+    width: 200px;
+    max-width: none;
+  
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
